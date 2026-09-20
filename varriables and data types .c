@@ -1,0 +1,18 @@
+//varriabland data types
+
+#include<stdlib.h>
+
+int main(){
+//declare and initialize varriables 
+char grade='A'; //% c;
+char name[6] ={"Daniel"}; //% s;
+int age = 17;//% d;
+float marks=86;//% f;
+double pi =3.142;//% of;
+printf("My grade is %c\n",grade);
+printf ("My name is %s\n",name);
+printf ("I am %d years old\n",age);
+printf ("I scored%.1f marks\n",marks);
+printf("The value of pi is %.2lf\n",pi);
+    return 0;
+}
